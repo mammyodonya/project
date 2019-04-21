@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/update"
+            android:title="Update PHR" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Sample Videos" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/user"
+            android:title="Account" />
+        <item
+            android:id="@+id/nav_fit"
+            android:icon="@drawable/fitness"
+            android:title="Keeping fit" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/note"
+            android:title="Legal Note" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/dev"
+                android:icon="@drawable/call"
+                android:title="Contact developer" />
+
+        </menu>
+    </item>
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/like"
+                android:title="Like us on Facebook" />
+            <item
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Follow us on Twitter" />
+        </menu>
+    </item>
+    <item android:title="System">
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="Exit" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
